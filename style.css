@@ -1,0 +1,95 @@
+.answer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #B9D1EB,#F876DE);
+    color: black;
+  }
+  
+  html {
+    margin: 0;
+    overflow-x: hidden;
+    scrollbar-width: 1px;
+    color: rgb(43, 43, 43);
+  }
+  body {
+    margin: 0px;
+  }
+  
+  .jumbo {
+    padding: 2%;
+    margin: 1%;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .anSpace {
+    background-color: rgb(43, 42, 42);
+    color: rgb(228, 227, 227);
+    padding: 20px;
+    margin: 1%;
+    border-radius: 4px;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  .page-btns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .link {
+    color: rgb(51, 175, 247);
+  }
+  
+  code {
+    font-family:'Times New Roman', Times, serif;
+    padding: 2px;
+  }
+  
+  table,
+  thead,
+  tbody,
+  tr,
+  th,
+  td {
+    border: none;
+  }
+  tr {
+    background-color: rgb(49, 212, 218);
+    color: rgb(34, 34, 36);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(208, 212, 216);
+    color: rgb(36, 34, 34);
+  }
+  
+  button {
+    margin: 1%;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: wheat;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(185, 169, 169);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(202, 175, 175);
+  }
